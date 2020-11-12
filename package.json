@@ -1,25 +1,26 @@
 {
-  "name": "burger",
-  "version": "1.0.0",
-  "description": "A burger logger with MySQL, Node, Express, Handlebars and a homemade ORM (yum!)",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/markdcross/burger.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/markdcross/burger/issues"
-  },
-  "homepage": "https://github.com/markdcross/burger#readme",
-  "dependencies": {
-    "express": "^4.17.1",
-    "express-handlebars": "^5.2.0",
-    "mysql": "^2.18.1"
-  }
+    "name": "burger",
+    "version": "1.0.0",
+    "description": "A burger logger with MySQL, Node, Express, Handlebars and a homemade ORM (yum!)",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/markdcross/burger.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/markdcross/burger/issues"
+    },
+    "homepage": "https://github.com/markdcross/burger#readme",
+    "dependencies": {
+        "express": "^4.17.1",
+        "express-handlebars": "^5.2.0",
+        "mysql": "^2.18.1"
+    }
 }

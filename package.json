@@ -4,7 +4,7 @@
     "description": "A burger logger with MySQL, Node, Express, Handlebars and a homemade ORM (yum!)",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
+        "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
         "type": "git",

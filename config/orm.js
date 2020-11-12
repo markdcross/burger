@@ -40,7 +40,6 @@ function objToSql(ob) {
 }
 
 const orm = {
-    // Create method: selectAll()
     selectAll: function (tableInput, cb) {
         const queryString = `SELECT * FROM ${tableInput};`;
         connection.query(queryString, function (err, result) {
@@ -50,7 +49,7 @@ const orm = {
             cb(result);
         });
     },
-    // Create method: insertOne()
+
     //TODO Refactor to template literals?
     insertOne: function (table, cols, vals, cb) {
         const queryString = 'INSERT INTO ' + table;
@@ -73,9 +72,8 @@ const orm = {
         });
     },
 
-    // Create method: updateOne()
     //TODO Refactor to template literals?
-    update: function (table, objColVals, condition, cb) {
+    updateOne: function (table, objColVals, condition, cb) {
         const queryString = 'UPDATE ' + table;
 
         queryString += ' SET ';

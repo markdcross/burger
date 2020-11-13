@@ -1,13 +1,13 @@
 // Require connection.js into orm.js
-var e = require('express');
-var connection = require('../config/connection');
+const e = require('express');
+const connection = require('../config/connection');
 
 //* --------------------------------------
 //*  Helper functions for SQL syntax.
 //* --------------------------------------
 // Helper function for SQL syntax.
 function printQuestionMarks(num) {
-    var arr = [];
+    const arr = [];
 
     for (var i = 0; i < num; i++) {
         arr.push('?');
@@ -18,7 +18,7 @@ function printQuestionMarks(num) {
 
 // Helper function to convert object key/value pairs to SQL syntax
 function objToSql(ob) {
-    var arr = [];
+    const arr = [];
 
     // loop through the keys and push the key/value as a string int arr
     for (var key in ob) {
@@ -39,7 +39,7 @@ function objToSql(ob) {
     return arr.toString();
 }
 
-var orm = {
+const orm = {
     selectAll: function (tableInput, cb) {
         const queryString = `SELECT * FROM ${tableInput};`;
         connection.query(queryString, function (err, result) {

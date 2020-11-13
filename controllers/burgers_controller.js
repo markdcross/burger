@@ -1,8 +1,8 @@
-const express = require('express');
+var express = require('express');
 
-const router = express.Router();
+var router = express.Router();
 
-const burger = require('../models/burgers');
+var burger = require('../models/burgers');
 
 // Create the router for the app
 router.get('/', function (req, res) {

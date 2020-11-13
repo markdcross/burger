@@ -1,6 +1,6 @@
 // Require connection.js into orm.js
-const e = require('express');
-const connection = require('../config/connection');
+var e = require('express');
+var connection = require('../config/connection');
 
 //* --------------------------------------
 //*  Helper functions for SQL syntax.
@@ -39,7 +39,7 @@ function objToSql(ob) {
     return arr.toString();
 }
 
-const orm = {
+var orm = {
     selectAll: function (tableInput, cb) {
         const queryString = `SELECT * FROM ${tableInput};`;
         connection.query(queryString, function (err, result) {

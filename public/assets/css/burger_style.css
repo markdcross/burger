@@ -23,6 +23,7 @@ li {
     margin-top: 0.5rem;
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 15px;
+    font-weight: 400;
 }
 
 .headline,
@@ -54,15 +55,15 @@ li {
 }
 
 .addBurger {
-    border: solid 1px rgba(255, 255, 255, 0.9);
+    border: 3px solid rgba(255, 255, 255, 0.9);
     padding: 1rem 2rem 1rem 2rem;
     border-radius: 3rem;
 }
 
 .devouredBtns {
-    border-radius: 15px;
+    border-radius: 5px;
     background-color: rgba(255, 255, 255);
     color: #323c3d;
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
+    padding: 0.5rem 0.5rem;
+    font-weight: 400;
 }

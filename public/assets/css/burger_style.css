@@ -35,7 +35,7 @@ li {
     max-height: 10rem;
 }
 
-.undevoured,
+.undevoured h2,
 .devoured h2 {
     text-align: center;
     margin-top: 1rem;

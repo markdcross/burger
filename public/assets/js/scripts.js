@@ -12,7 +12,6 @@ $(function () {
             type: 'PUT',
             data: newDevouredState,
         }).then(function () {
-            console.log('changed devoured to', newDevoured);
             // Reload the page to get the updated list
             location.reload();
         });
@@ -26,14 +25,12 @@ $(function () {
             burger_name: $('#burgName').val().trim(),
             devoured: $('[name=devoured]:checked').val().trim(),
         };
-        console.log(newBurger);
 
         // Send the POST request.
         $.ajax('/api/burgers', {
             type: 'POST',
             data: newBurger,
         }).then(function () {
-            console.log('created new burger');
             // Reload the page to get the updated list
             location.reload();
         });

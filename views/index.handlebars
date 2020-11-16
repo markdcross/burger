@@ -2,9 +2,9 @@
   <div class="row">
     <div class="col-12 text-center headline">
       <h1>Welcome to Eat Da Burger!</h1>
-            <img src="./img/favicon.png" alt="Giant Cheeseburger">
-      <h2>Look at all those burgers just sitting there, waiting to be devoured...<br>
-        <h3>Add your own, and keep a to-do list of burgers to devour!</h3>
+            <img src="./img/favicon.png" alt="Giant Cheeseburger" class="burgerImage">
+      <h2>Look at all those burgers just sitting there, waiting to be <strong>devoured</strong>...<br>
+        <h3>Add your own, and keep a to-do list of burgers to enjoy!</h3>
     </div>
   </div>
 
@@ -35,8 +35,8 @@
     </div>
 
   </div>
-  <div class="row">
-    <div class="col-12 text-center">
+  <div class="row addBurgerBox justify-content-center">
+    <div class="col-4 text-center addBurger">
       <h2>Add a burger</h2>
       <form class="create-form">
 
@@ -45,10 +45,10 @@
           <input type="text" id="burgName" name="burgName">
         </div>
 
-        <div class="form-group">
+        <div class="form-group devouredBtns">
           <label for="devoured">Have you already crushed this thing?</label><br>
-          <input type="radio" name="devoured" value="1" checked> Boom! Devoured!<br>
-          <input type="radio" name="devoured" value="0"> It's still sittin' there...
+          <input class = "devouredBtns" type="radio" name="devoured" value="1" checked> Boom! Devoured!<br>
+          <input class = "devouredBtns" type="radio" name="devoured" value="0"> It's still sittin' there...
         </div>
 
         <button type="submit">Add Da Burger!</button>

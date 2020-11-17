@@ -1,6 +1,8 @@
 
 [![License](https://img.shields.io/github/license/markdcross/burger)](https://img.shields.io/github/license/markdcross/burger)
 # Eat Da Burger 
+[Heroku App](https://bc-hw13-burger.herokuapp.com/)
+[Portfolio Page](https://markdcross.me/portfolio.html)
 
 ## Description
 A burger logger with MySQL, Node, Express, Handlebars and a custom ORM. Following the MVC design pattern, I've used Node and MySQL to query and route data in the app, and Handlebars to generate the THTML.

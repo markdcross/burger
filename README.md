@@ -1,7 +1,7 @@
 
 [![License](https://img.shields.io/github/license/markdcross/burger)](https://img.shields.io/github/license/markdcross/burger)
 # Eat Da Burger 
-[Heroku App](https://bc-hw13-burger.herokuapp.com/)
+[Heroku App](https://bc-hw13-burger.herokuapp.com/)  
 [Portfolio Page](https://markdcross.me/portfolio.html)
 
 ## Description

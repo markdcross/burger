@@ -5,7 +5,7 @@
 [Portfolio Page](https://markdcross.me/portfolio.html)
 
 ## Description
-A burger logger with MySQL, Node, Express, Handlebars and a custom ORM. Following the MVC design pattern, I've used Node and MySQL to query and route data in the app, and Handlebars to generate the THTML.
+A burger logger with MySQL, Node, Express, Handlebars and a custom ORM. Following the MVC design pattern, I've used Node and MySQL to query and route data in the app, and Handlebars to generate the HTML.
 
 ## Table of Contents
 - [Eat Da Burger](#eat-da-burger)

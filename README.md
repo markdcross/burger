@@ -25,7 +25,17 @@ A burger logger with MySQL, Node, Express, Handlebars and a custom ORM. Followin
 3. Install NPM Packages via `$ npm i`
 
 ## Usage
+#### Technology:
+* HTML 
+* CSS
+* JavaScript
+* jQuery
+* Node.js
+* Express
+* Handlebars.js
+* MySQL
 
+#### Screenshots:
 ![screenshot](/public/img/screenshot.png)
 
 A burger-lover's dream! Just add the burgers that you want to devour to the list, and check them off as they've been consumed. Go forth and enjoy your meat patty sandwiches!
